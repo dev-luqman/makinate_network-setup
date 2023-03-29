@@ -56,5 +56,6 @@ variable "number_of_instances" {
 
 
 variable "ami_key_pair_name" {
-  default = "apacheServer"
+  description = "number of instances to be created"
+  default     = "apacheServer"
 }
